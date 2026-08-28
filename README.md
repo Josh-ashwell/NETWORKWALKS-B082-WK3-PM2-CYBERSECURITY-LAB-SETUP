@@ -6,7 +6,7 @@
 
 ## 🛡️ Cybersecurity & Ethical Hacking Internship
 
-### 📌 Overview
+### 📌 Project Overview
 
 This repository documents my practical activities for **Week 3 of my Cybersecurity & Ethical Hacking Internship**.
 
