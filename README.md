@@ -1,10 +1,29 @@
 # NETWORKWALKS-B082-WK3-PM2-CYBERSECURITY-LAB-SETUP
 
-## Week 3 Cybersecurity &amp; Ethical Hacking Internship
+## 🛡️Week 3 Cybersecurity &amp; Ethical Hacking Project Lab
 
-# 🔐 Week 3 Cybersecurity Lab – Password Cracking With John The Ripper and NetworkWalks Tools
 
-## 🛡️ Cybersecurity & Ethical Hacking Internship
+<div align="center">
+
+# 
+
+🔐 **Password Cracking With John The Ripper and NetworkWalks Tools**
+</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Skill-Cybersecurity-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Ver-Virtualbox%20v7.2-0070C0?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Kali%20Linux-v2026.2-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Skill-Linux-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Network-10.0.0.0%2F24-238F89?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Penetration%20Testing-C00000?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Skill-Virtualization-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/GitHub-404040?style=flat-square&labelColor=0070C0&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kali%20Linux-404040?style=flat-square&labelColor=C00000&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/NetworkWalks-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Ethical%20Hacking-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Waqas%20Karim%20CCIE-C00000?style=flat-square" />
+</p>
+
 
 ### 📌 Project Overview
 
@@ -88,6 +107,8 @@ The tool attempted to recover the password based on the available password candi
 ### 5️⃣ ✅ Verification
 
 After the password was recovered, it was used to open the protected PDF and verify that the password-recovery process had been successful.
+The revealed passwords were:
+---------------|-------------------------|------------------PDF1
 
 ## 📸 Evidence
 
@@ -143,6 +164,26 @@ The tool attempted different password candidates until a matching password was i
 ### 4️⃣ ✅ Password Verification
 
 The recovered password was entered into the protected PDF to verify whether the file could be successfully opened.
+
+
+## 🔓 Recovered Passwords – Locked PDF Files
+
+The following table summarizes the password-recovery results obtained during my Week 3 cybersecurity laboratory exercises.
+
+| #️⃣ | 📄 Locked PDF           | 🛠️ Tool Used            | 🔑 Recovered Password | ✅ Verification        |Captured Flag |
+| --: | ----------------------- | ------------------------ | --------------------- | --------------------- |------------------|
+|   1 | **My Locked PDF 1.pdf** | John the Ripper / Johnny | `good-luck`           | ✅ Successfully opened |nw(cybersecurity_flag_captured_2608 |
+|   2 | **My Locked PDF 2.pdf** | John the Ripper / Johnny | `password`            | ✅ Successfully opened | nw(networkwalks_persistence_jtr_270521 |
+|   3 | **My Locked PDF 3.pdf** | John the Ripper / Johnny | `1qaz2wsx`            | ✅ Successfully opened | nw(networkwalks_flag_260821_1)|
+| 4   | **My-Locked-PDF1_NW.pdf** | Networkwalks Tools        |`password1`           | ✅ Successfully opened | nw(networkwalks_flag_260821_1 |
+
+### 🧠 Observation
+
+The practical exercise demonstrated that password-protected PDF files can be subjected to password-recovery attempts when their associated password hashes are available for analysis.
+
+The results also provided a practical illustration of the importance of **password complexity**. The three recovered passwords demonstrate varying levels of predictability, highlighting why users should avoid simple, common, or easily guessed password patterns.
+
+> ⚠️ **Ethical Note:** These results were obtained from password-protected files supplied for the authorized cybersecurity training laboratory. The passwords documented here should be treated strictly as laboratory credentials and should not be reused for real accounts or systems.
 
 ---
 
